@@ -1,0 +1,11 @@
+C:\source\contact_manager\microservices_complexus\contact_manager\bin\Debug\contact_manager.dll.config
+C:\source\contact_manager\microservices_complexus\contact_manager\bin\Debug\contact_manager.dll
+C:\source\contact_manager\microservices_complexus\contact_manager\bin\Debug\contact_manager.pdb
+C:\source\contact_manager\microservices_complexus\contact_manager\bin\Debug\EntityFramework.dll
+C:\source\contact_manager\microservices_complexus\contact_manager\bin\Debug\EntityFramework.SqlServer.dll
+C:\source\contact_manager\microservices_complexus\contact_manager\bin\Debug\EntityFramework.xml
+C:\source\contact_manager\microservices_complexus\contact_manager\bin\Debug\EntityFramework.SqlServer.xml
+C:\source\contact_manager\microservices_complexus\contact_manager\obj\Debug\contact_manager_data_access.csproj.CoreCompileInputs.cache
+C:\source\contact_manager\microservices_complexus\contact_manager\obj\Debug\contact_manager_data_access.csproj.CopyComplete
+C:\source\contact_manager\microservices_complexus\contact_manager\obj\Debug\contact_manager.dll
+C:\source\contact_manager\microservices_complexus\contact_manager\obj\Debug\contact_manager.pdb

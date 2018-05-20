@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="vehicle_model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="vehicle">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="make" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="model" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="engine_capacity" Type="Int32" />
+    <Property Name="cylinder_variant" Type="Int32" />
+    <Property Name="top_speed" Type="Int16" />
+    <Property Name="price" Type="Int32" />
+    <Property Name="image_" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="insert_date" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="vehicle_price_range">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="minimum" Type="Int32" />
+    <Property Name="maximum" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="vehicle_entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="vehicles" EntityType="Self.vehicle" />
+    <EntitySet Name="vehicle_price_range" EntityType="Self.vehicle_price_range" />
+  </EntityContainer>
+</Schema>

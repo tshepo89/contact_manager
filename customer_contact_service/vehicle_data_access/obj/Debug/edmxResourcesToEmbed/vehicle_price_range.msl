@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="vehicle_modelStoreContainer" CdmEntityContainer="vehicle_entity">
+    <EntitySetMapping Name="vehicles">
+      <EntityTypeMapping TypeName="vehicle_model.vehicle">
+        <MappingFragment StoreEntitySet="vehicle">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="make" ColumnName="make" />
+          <ScalarProperty Name="model" ColumnName="model" />
+          <ScalarProperty Name="engine_capacity" ColumnName="engine_capacity" />
+          <ScalarProperty Name="cylinder_variant" ColumnName="cylinder_variant" />
+          <ScalarProperty Name="top_speed" ColumnName="top_speed" />
+          <ScalarProperty Name="price" ColumnName="price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vehicle_price_range">
+      <EntityTypeMapping TypeName="vehicle_model.vehicle_price_range">
+        <MappingFragment StoreEntitySet="vehicle_price_range">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="minimum" ColumnName="minimum" />
+          <ScalarProperty Name="maximum" ColumnName="maximum" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
