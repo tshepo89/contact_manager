@@ -316,6 +316,12 @@ C:\source\contact_manager\microservices_complexus\microservices_complexus\obj\De
 C:\source\contact_manager\microservices_complexus\microservices_complexus\obj\Debug\microservices_complexus.csproj.CopyComplete
 C:\source\contact_manager\microservices_complexus\microservices_complexus\obj\Debug\microservices_complexus.dll
 C:\source\contact_manager\microservices_complexus\microservices_complexus\obj\Debug\microservices_complexus.pdb
+C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\roslyn\System.IO.Compression.dll
+C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\roslyn\VBCSCompiler.exe
 C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\ApplicationInsights.config
 C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\microservices_complexus.dll.config
 C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\microservices_complexus.dll
@@ -327,13 +333,9 @@ C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\r
 C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\roslyn\csi.exe.config
 C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\roslyn\csi.rsp
 C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
 C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\roslyn\Microsoft.CodeAnalysis.dll
 C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
 C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
 C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
 C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\roslyn\Microsoft.VisualBasic.Core.targets
 C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\roslyn\Microsoft.Win32.Primitives.dll
@@ -343,7 +345,6 @@ C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\r
 C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
 C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\roslyn\System.Diagnostics.Process.dll
 C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\roslyn\System.IO.Compression.dll
 C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\roslyn\System.IO.FileSystem.dll
 C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
 C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\roslyn\System.IO.FileSystem.Primitives.dll
@@ -366,7 +367,6 @@ C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\r
 C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\roslyn\vbc.exe
 C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\roslyn\vbc.exe.config
 C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\roslyn\vbc.rsp
-C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\roslyn\VBCSCompiler.exe
 C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\roslyn\VBCSCompiler.exe.config
 C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\Antlr3.Runtime.dll
 C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\contact_manager.dll
@@ -401,10 +401,10 @@ C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\c
 C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\contact_manager.dll.config
 C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\EntityFramework.xml
 C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\EntityFramework.SqlServer.xml
+C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\Newtonsoft.Json.xml
 C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\System.Net.Http.Formatting.xml
 C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\System.Web.Http.xml
 C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\System.Web.Http.Cors.xml
-C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\Newtonsoft.Json.xml
 C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\System.Web.Helpers.xml
 C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\System.Web.Http.WebHost.xml
 C:\source\contact_manager\customer_contact_service\microservices_complexus\bin\System.Web.Mvc.xml

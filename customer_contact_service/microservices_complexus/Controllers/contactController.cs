@@ -10,6 +10,11 @@ namespace microservices_complexus.Controllers
 {
     public class contactController : ApiController
     {
+        customer_manager_dbEntities customer_manager_db = new customer_manager_dbEntities();
+
+        public contactController() {
+            customer_manager_db.Configuration.ProxyCreationEnabled = false;
+        }
         // POST: api/contact
         public void Post([FromUri]customer value){
             try{
@@ -35,7 +40,7 @@ namespace microservices_complexus.Controllers
         // GET: api/contact
         public IEnumerable<customer> Get(){
             using (customer_manager_dbEntities entities = new customer_manager_dbEntities()){
-                return entities.customers.ToList();
+                return entities.customers.ToArray();
             }
         }
 
