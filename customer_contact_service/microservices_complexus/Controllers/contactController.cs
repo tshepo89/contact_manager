@@ -22,7 +22,7 @@ namespace microservices_complexus.Controllers
         }
 
         [HttpPost, Route ("api/contact/add_customer_contact/{name=name}/{email=email}/{mobile=mobile}")]
-        public void Post([FromBody]customer_contact value){
+        public void Post([FromUri]customer_contact value){
             try{
                 using (customer_manager_dbEntities entities = new customer_manager_dbEntities()){
                     entities.customer_contact.Add(value);
